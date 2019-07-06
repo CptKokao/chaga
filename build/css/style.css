@@ -1,7 +1,6 @@
 body {
   min-width: 320px;
-  max-width: 1400px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-size: 14px;
   font-family: "Muller", "Arial", sans-serif;
@@ -50,27 +49,36 @@ input[type="radio"].visually-hidden {
   background: url("../img/bg.png") no-repeat center center;
   background-color: #82bcc0;
   background-size: 100% 100%;
-  height: 585px; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 50px 50px 0; }
 
 .header__text {
   margin: 0;
-  font-size: 36px;
-  color: red;
-  text-align: center; }
+  font-size: 42px;
+  color: red; }
 
 .header__logo {
   max-width: 135px;
   height: auto; }
 
 .header__wrapper1 {
+  max-width: 1400px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px; }
 
 .header__wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 20px; }
+  grid-gap: 20px;
+  padding-bottom: 25px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline; }
   .header__wrapper div:nth-child(1) {
     max-width: 230px;
     height: auto; }
