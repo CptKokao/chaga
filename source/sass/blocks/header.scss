@@ -5,12 +5,13 @@
   background-size: 100% 100%;
   box-sizing: border-box;
   padding: 50px 50px 0;
+  margin-bottom: 30px;
 }
 
 .header__text {
   margin: 0;
-  font-size: 42px;
-  color: red;
+  font-size: 52px;
+  color: $red;
 }
 
 .header__logo {
@@ -18,23 +19,24 @@
   height: auto;
 }
 
-.header__wrapper1 {
-  max-width: 1400px;
+.header__greet {
+  max-width: 1100px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
 
 }
 
 .header__wrapper {
-  max-width: 1400px;
+  max-width: 1100px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 20px;
   padding-bottom: 25px;
   align-items: baseline;
+  justify-items: center;
 
   & div:nth-child(1) {
     max-width: 230px;
@@ -50,59 +52,4 @@
     max-width: 260px;
     height: auto;
   }
-
-
 }
-
-
-
-// .header__logo {
-//   // position: absolute;
-//   top: 30px;
-//   left: 50px;
-// }
-
-// .header__text {
-//   font-size: 60px;
-//   text-align: center;
-//   margin: 0;
-//   color: $red;
-// }
-
-// .main-nav {
-//   max-width: 1440px;
-//   width: 1300px;
-//   padding-left: 40px;
-//   padding-right: 40px;
-//   margin: 0 auto;
-//   flex-direction: row;
-//   justify-content: space-between;
-// }
-
-// .main-nav__popup {
-//   display: flex;
-//   list-style: none;
-//   padding: 0;
-//   margin: 0;
-//   text-transform: uppercase;
-// }
-
-// .main-nav__popup-item {
-//   height: 65px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
-
-// // [href] применять только для href
-// .main-nav__popup-link {
-//   letter-spacing: 1px;
-
-//   &:hover[href] {
-//     opacity: 0.6;
-//   }
-
-//   &:active[href] {
-//     opacity: 0.3;
-//   }
-// }

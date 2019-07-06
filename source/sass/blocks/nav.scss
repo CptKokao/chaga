@@ -1,0 +1,27 @@
+.main-nav {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  max-width: 1100px;
+  padding-right: 70px;
+}
+
+.main-nav__popup {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  list-style: none;
+}
+
+.main-nav__popup-item {
+  font-size: 36px;
+
+
+}
+
+.main-nav__popup-link {
+  color: $red;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
