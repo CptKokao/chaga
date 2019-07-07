@@ -89,7 +89,7 @@ input[type="radio"].visually-hidden {
 
 .main-nav {
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   max-width: 1100px;
   padding-right: 70px; }
 
@@ -122,7 +122,7 @@ input[type="radio"].visually-hidden {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 25px;
-  background: #e4e4e4 no-repeat left top; }
+  background: url("../img/bg2.jpg") no-repeat center top; }
 
 .product {
   max-width: 1100px;
@@ -183,3 +183,140 @@ input[type="radio"].visually-hidden {
 
 .product__btn span {
   text-transform: uppercase; }
+
+.about {
+  background: #f4ecde; }
+
+.about__wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  border-bottom: 5px solid #80392b;
+  margin-bottom: 50px; }
+
+.about__title {
+  font-size: 32px;
+  color: #80392b;
+  border-left: 5px solid #80392b;
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.about__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.about__chaga {
+  width: 33.3%;
+  padding: 10px; }
+
+.about__composition {
+  width: 33.3%;
+  padding: 10px; }
+
+.about__recipe {
+  width: 33.3%;
+  padding: 10px; }
+
+h3 {
+  font-size: 24px;
+  color: #80392b;
+  margin-top: 0; }
+
+.production__wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  margin-bottom: 50px; }
+
+.production__title {
+  font-size: 32px;
+  color: #80392b;
+  border-left: 5px solid #80392b;
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.production__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+
+.production_image {
+  padding: 10px;
+  width: 33%; }
+
+.production__description {
+  margin: 0;
+  width: 67%;
+  padding: 10px; }
+
+.footer {
+  background: #f4ecde; }
+
+.footer__wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  border-bottom: 5px solid #80392b;
+  margin-bottom: 50px; }
+
+.footer__title {
+  font-size: 32px;
+  color: #80392b;
+  border-left: 5px solid #80392b;
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px; }
+
+.footer__flex_list {
+  outline: 1px solid red;
+  width: 33.3%; }
+
+.footer__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.footer__item_title {
+  font-size: 16px; }
+
+.footer__item_text {
+  display: block;
+  margin: 0; }
+
+.footer__img {
+  width: 50px;
+  height: auto; }
+
+.footer__flex_item2 {
+  outline: 1px solid red;
+  width: 33.3%; }
