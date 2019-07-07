@@ -6,16 +6,13 @@
 }
 
 .main-nav__popup {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
 }
 
 .main-nav__popup-item {
   font-size: 36px;
-
-
 }
 
 .main-nav__popup-link {
