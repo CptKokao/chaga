@@ -3,14 +3,22 @@ body {
   margin: 0;
   padding: 0;
 
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Izhitsa", "Arial", sans-serif;
   font-style: normal;
 }
 
+$red: #80392b;
+
 img {
   width: 100%;
   height: auto;
+}
+
+h3 {
+  font-size: 24px;
+  color: $red;
+  margin-top: 0;
 }
 
 a {
@@ -37,8 +45,18 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+.title {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 32px;
+  color: #80392b;
+  border-left: 5px solid $red;
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
 .outline {
   border: 1px solid red;
 }
-
-$red: #80392b;
