@@ -267,6 +267,7 @@ input[type="radio"].visually-hidden {
   padding: 0 40px; }
 
 .contact__wrapper {
+  position: relative;
   max-width: 900px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -274,6 +275,13 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.contact__decoration {
+  position: absolute;
+  right: 0;
+  top: -130px;
+  width: 170px;
+  height: auto; }
 
 .contact__list {
   width: 33.3%; }

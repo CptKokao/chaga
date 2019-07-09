@@ -4,12 +4,21 @@
 }
 
 .contact__wrapper {
+  position: relative;
   max-width: 900px;
   margin: 0 auto;
   // border-bottom: 5px solid $red;
   margin-bottom: 20px;
   padding-bottom: 15px;
   display: flex;
+}
+
+.contact__decoration {
+  position: absolute;
+  right: 0;
+  top: -130px;
+  width: 170px;
+  height: auto;
 }
 
 .contact__list {
