@@ -61,7 +61,7 @@ input[type="radio"].visually-hidden {
 .header {
   background: url("../img/bg.png") no-repeat center center;
   background-color: #caa68d;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 50px 50px 0;
   margin-bottom: 30px; }
 
@@ -106,6 +106,32 @@ input[type="radio"].visually-hidden {
   .header__wrapper div:nth-child(3) {
     max-width: 260px;
     height: auto; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    padding: 20px 20px 0; }
+  .header__text {
+    font-size: 18px; }
+  .header__logo {
+    max-width: 55px;
+    margin-right: 10px; }
+  .header__wrapper {
+    margin-top: 0; }
+  .main-nav {
+    display: none; } }
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .header {
+    padding: 30px 30px 0; }
+  .header__text {
+    font-size: 28px; }
+  .header__logo {
+    max-width: 80px;
+    margin-right: 20px; }
+  .header__wrapper {
+    margin-top: 0; }
+  .main-nav__popup-item {
+    font-size: 18px; } }
 
 .main-nav {
   margin: 0 auto;

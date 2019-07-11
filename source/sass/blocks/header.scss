@@ -1,8 +1,7 @@
-
 .header {
   background: url("../img/bg.png") no-repeat center center;
   background-color: #caa68d;
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 50px 50px 0;
   margin-bottom: 30px;
 }
@@ -51,3 +50,53 @@
     height: auto;
   }
 }
+
+@media (min-width: $mobileL) {
+  .header {
+    padding: 20px 20px 0;
+  }
+
+  .header__text {
+    font-size: 18px;
+  }
+
+  .header__logo {
+    max-width: 55px;
+    margin-right: 10px;
+  }
+
+  .header__wrapper {
+
+    margin-top: 0;
+  }
+
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .header {
+    padding: 30px 30px 0;
+  }
+
+  .header__text {
+    font-size: 28px;
+  }
+
+  .header__logo {
+    max-width: 80px;
+    margin-right: 20px;
+  }
+
+  .header__wrapper {
+    margin-top: 0;
+  }
+
+  .main-nav__popup-item {
+    font-size: 18px;
+}
+}
+
+
+
