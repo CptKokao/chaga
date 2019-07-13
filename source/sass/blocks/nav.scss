@@ -1,24 +1,28 @@
-.main-nav {
-  margin: 0 auto;
-  margin-bottom: 50px;
-  max-width: 1100px;
-  padding-right: 70px;
+.main-nav  {
+  display: none;
 }
 
-.main-nav__popup {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
 
-.main-nav__popup-item {
-  font-size: 32px;
-}
+@media (min-width: 768px) {
+  .main-nav {
+    display: block;
+  }
 
-.main-nav__popup-link {
-  color: $red;
+  .main-list {
+    list-style: none;
+    padding: 0;
+  }
 
-  &:hover {
-    opacity: 0.5;
+  .main-nav__item {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .main-nav__popup-link {
+    color: $red;
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
