@@ -51,52 +51,8 @@
   }
 }
 
-@media (min-width: $mobileL) {
-  .header {
-    padding: 20px 20px 0;
-  }
+// @media (min-width: $mobileL) {
+// }
 
-  .header__text {
-    font-size: 18px;
-  }
-
-  .header__logo {
-    max-width: 55px;
-    margin-right: 10px;
-  }
-
-  .header__wrapper {
-
-    margin-top: 0;
-  }
-
-  .main-nav {
-    display: none;
-  }
-}
-
-@media (min-width: $tablet-width) {
-  .header {
-    padding: 30px 30px 0;
-  }
-
-  .header__text {
-    font-size: 28px;
-  }
-
-  .header__logo {
-    max-width: 80px;
-    margin-right: 20px;
-  }
-
-  .header__wrapper {
-    margin-top: 0;
-  }
-
-  .main-nav__popup-item {
-    font-size: 18px;
-}
-}
-
-
-
+// @media (min-width: $tablet-width) {
+// }
