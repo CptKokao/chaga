@@ -1,20 +1,8 @@
 .about {
   background: #f4ecde;
-}
-
-.about__wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 40px;
-  border-bottom: 5px solid $red;
-  margin-bottom: 50px;
-}
-
-.about__flex {
-  display: flex;
+  text-align: justify;
 }
 
 .about__list {
-  width: 33.3%;
-  padding: 10px;
+  padding-left: 15px;
 }

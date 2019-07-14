@@ -1,59 +1,27 @@
 .contact {
   background: #f4ecde;
-  padding: 0 40px;
+  // padding: 0 40px;
 }
 
-.contact__wrapper {
+.contact__relative {
   position: relative;
-  max-width: 900px;
-  margin: 0 auto;
-  // border-bottom: 5px solid $red;
-  margin-bottom: 20px;
-  padding-bottom: 15px;
-  display: flex;
 }
 
 .contact__decoration {
   position: absolute;
-  right: 0;
-  top: -130px;
-  width: 170px;
+  right: 10px;
+  top: -34px;
+  width: 150px;
   height: auto;
 }
 
-.contact__list {
-  width: 33.3%;
-}
-
-.contact__item {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-top: 10px;
-  padding: 10px 15px;
-}
-
-.contact__item_title {
-  font-size: 16px;
-  text-align: center;
-  margin-top: 10px;
-  line-height: 14px;
-}
-
-.contact__item_txt {
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.contact__item_dsc {
-  margin: 0;
-  line-height: 18px;
-  margin-bottom: 5px;
-}
-
-.contact__img {
-  width: 35px;
-  height: auto;
+@media (min-width: 768px) {
+  .contact__decoration {
+    position: absolute;
+    top: -40px;
+    width: 170px;
+    height: auto;
+  }
 }
 
 

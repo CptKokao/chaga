@@ -1,23 +1,4 @@
-.production__wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 40px;
-  margin-bottom: 50px;
+.production {
+  text-align: justify;
 }
 
-.production__flex {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row-reverse;
-}
-
-.production_image {
-  width: 35%;
-  padding: 10px;
-}
-
-.production__description {
-  margin: 0;
-  width: 65%;
-  padding: 10px;
-}
