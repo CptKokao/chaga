@@ -13,6 +13,8 @@ img {
   height: auto;
 }
 
+$red: #80392b;
+
 h1 {
   font-family: "Izhitsa", "Arial", sans-serif;
 }
@@ -72,7 +74,7 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
 }
 
-$red: #80392b;
+
 
 @media (min-width: 768px) {
   body {
