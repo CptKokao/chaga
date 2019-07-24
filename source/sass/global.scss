@@ -74,6 +74,11 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
 }
 
+.btn-secondary {
+  background-color: #c9383a;
+  border-color: #c9383a;
+}
+
 @media (min-width: 768px) {
   body {
     font-size: 16px;
