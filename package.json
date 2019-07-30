@@ -1,49 +1,33 @@
 {
-  "name": "chaga",
-  "version": "",
-  "description": "",
+  "name": "bootstrap-4",
+  "version": "2.0.0",
+  "description": "Start project with use Bootstrap 4",
+  "author": "itchief.ru",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itchief/gulp-project-bootstrap-4.git"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.7",
+    "bootstrap": "^4.3.1"
+  },
   "devDependencies": {
-    "@htmlacademy/editorconfig-cli": "1.x",
-    "autoprefixer": "9.1.x",
-    "browser-sync": "^2.26.3",
-    "gulp": "4.0.x",
-    "gulp-csso": "^3.0.1",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-minify": "^3.1.0",
-    "gulp-plumber": "1.2.x",
-    "gulp-postcss": "8.0.x",
-    "gulp-posthtml": "^3.0.4",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache": "^1.1.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "4.0.x",
-    "gulp-svgstore": "^7.0.0",
-    "gulp-webp": "^3.0.0",
-    "del": "^3.0.0",
-    "posthtml-include": "^1.2.0",
-    "stylelint": "^9.10.1",
-    "stylelint-config-htmlacademy": "0.1.x"
-  },
-  "scripts": {
-    "editorconfig": "editorconfig-cli",
-    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
-    "test": "npm run editorconfig && npm run stylelint",
-    "build": "gulp build",
-    "start": "gulp start"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "IE 11",
-    "Firefox ESR"
-  ],
-  "editorconfig-cli": [
-    "*.json",
-    "*.js",
-    "source/*.html",
-    "source/js/**/*.js",
-    "source/img/**/*.svg",
-    "source/sass/**/*.scss"
-  ],
-  "engines": {
-    "node": "8.12"
+    "gulp-rigger": "^0.5.8",
+    "gulp-rimraf": "^0.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0"
   }
 }
