@@ -28,6 +28,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
-    "imagemin-pngquant": "^8.0.0"
+    "imagemin-pngquant": "^8.0.0",
+    "eslint": "4.19.1",
+    "eslint-config-htmlacademy": "0.5.2"
   }
 }
