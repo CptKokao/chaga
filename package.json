@@ -14,9 +14,8 @@
     "bootstrap": "^4.3.1"
   },
   "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
     "browser-sync": "^2.26.7",
-    "eslint": "^4.19.1",
-    "eslint-config-htmlacademy": "^0.5.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-cache": "^1.1.2",
@@ -30,6 +29,22 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
-    "imagemin-pngquant": "^8.0.0"
-  }
+    "imagemin-pngquant": "^8.0.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"assets/src/style/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp default"
+  },
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "assets/src/*.html",
+    "assets/src/js/**/*.js",
+    "assets/src/sass/**/*.{sass,scss}"
+  ]
 }
