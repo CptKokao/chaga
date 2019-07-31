@@ -9,14 +9,9 @@
 }
 
 .slider__item {
-  flex: 0 0 50%;
-  max-width: 50%;
-  text-align: center;
-}
-
-// Утановил для теста
-.slider__item > img {
-  width: 250px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 65px;
 }
 
 .slider__control {
@@ -65,4 +60,20 @@
 
 .slider__control_right::before {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 768px) {
+  .slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+    padding: 55px;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .slider__item {
+    padding: 65px;
+  }
 }
