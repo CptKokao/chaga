@@ -19,5 +19,6 @@
 //= ../../../node_modules/bootstrap/js/dist/toast.js
 
 // Импортируем другие js-файлы
-//= my.js
+//= jquery.maskedinput.min.js
 //= slider.js
+//= my.js

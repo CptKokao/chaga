@@ -11,7 +11,7 @@
 .slider__item {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 65px;
+  padding: 30px 75px;
 }
 
 .slider__control {
@@ -67,13 +67,13 @@
     flex: 0 0 50%;
     max-width: 50%;
     text-align: center;
-    padding: 55px;
+    padding: 30px 65px;
 
   }
 }
 
 @media (min-width: 992px) {
   .slider__item {
-    padding: 65px;
+    padding: 30px 100px;
   }
 }
