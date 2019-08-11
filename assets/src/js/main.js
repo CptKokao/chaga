@@ -4,6 +4,10 @@
 // Импортируем Popper
 //= ../../../node_modules/popper.js/dist/umd/popper.js
 
+// Импортируем jQuery-Lazy
+//= ../../../node_modules/jquery-lazy/jquery.lazy.min.js
+//= ../../../node_modules/jquery-lazy/jquery.lazy.plugins.min.js
+
 // Импортируем необходимые js-файлы Bootstrap 4
 //= ../../../node_modules/bootstrap/js/dist/util.js
 //= ../../../node_modules/bootstrap/js/dist/alert.js
@@ -20,5 +24,6 @@
 
 // Импортируем другие js-файлы
 //= jquery.maskedinput.min.js
+//= jqery.lazy.js
 //= slider.js
 //= my.js
